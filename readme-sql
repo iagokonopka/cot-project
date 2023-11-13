@@ -1,0 +1,8 @@
+I have three SQL Server procedures that will clean and transform my data before send everything to Power BI.
+
+The procedure 'procedure_data' will bring together the 2022 and 2023 data as a table named COTData. I did some changes like create an index column and also select only the 8 major currencies I need to analyze.
+
+The procedure 'procedure_annual' will bring together the 2022 and 2023 data as a table named COTAnnual. I did some changes like create an index column, change the date column from datetime to date only and also select only the 8 major currencies I need to analyze.
+
+The procedure 'procedure_full' will bring together the COTData and COTAnnual. I had to make a lef join to bring the two 'non commercials' columns I needed from the COTAnnual table.
+
