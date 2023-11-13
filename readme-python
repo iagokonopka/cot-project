@@ -1,0 +1,9 @@
+There is two similar python scripts inside this repository.
+
+The first script is the 'cot_all_symbols_noncommercial_to_sql'. This script will download the annual data from the cftc.gov website. This one will bring the column with the "commercial" and "non commercial" data, everything already done without the need of calculation.
+
+The second script is the 'cot_all_symbols_to_sql'. This one will download data from the same website but without the "commercial" and "non commercial" columns.
+
+I will join everything in the SQL part of the project. Please read the readme-sql file.
+
+Best regards.
